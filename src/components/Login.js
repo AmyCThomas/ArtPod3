@@ -22,7 +22,7 @@ function Login(props) {
         <div>
             <Navbar className="login-bar" variant="light">
               <Navbar.Brand as={Col} xs={8}>
-                <img alt="logo" src={require("../images/artlogo.svg")} className="logo"/>
+                <img alt="logo" src={require("../images/artlogo.png")} className="logo"/>
               </Navbar.Brand>
               <Nav className="ms-auto">
                 <Nav.Link as={Link} to="/login"><Button variant="outline-secondary">Login</Button></Nav.Link>
@@ -36,7 +36,7 @@ function Login(props) {
       <div>
         <Navbar className="login-bar">
           <Navbar.Brand as={Col} xs={8}>
-                <img alt="logo" src={require("../images/artlogo.svg")} className="logo"/>
+                <img alt="logo" src={require("../images/artlogo.png")} className="logo"/>
               </Navbar.Brand>
           <Nav className="ms-auto">
           <Nav.Link as={Link} to="#" onClick={logMeOut}><Button variant="outline-secondary">Logout</Button></Nav.Link>

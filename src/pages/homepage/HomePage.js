@@ -24,7 +24,7 @@ function HomePage() {
             <Card.Body>
               <Card.Title>Sign up</Card.Title>
               <Card.Text>
-                Sign up for a free account today. Simple and easy.
+                Register!
               </Card.Text>
             </Card.Body>
           </Card>
