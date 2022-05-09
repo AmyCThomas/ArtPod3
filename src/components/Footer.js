@@ -1,0 +1,21 @@
+import { Row, Col } from "react-bootstrap"
+import './NavBarsStyle.css'
+
+function Footer() {
+  return (
+    <footer>
+      <Row className="footer-div">
+        <Col xs={8} >
+          <p className="footer-text">© Art Pod, 2022. All rights reserved.</p>
+        </Col>
+        <Col xs={4}>
+          <img src={require('../images/facebook.png')} className="icon" alt="facebook"/>
+          <a href="https://www.instagram.com/dundundara/"><img src={require('../images/instagram.png')} className="icon" alt="instagram"/></a> 
+          <img src={require('../images/twitter.png')} className="icon" alt="twitter"/>
+        </Col>
+      </Row>
+    </footer>
+  )
+}
+
+export default Footer;

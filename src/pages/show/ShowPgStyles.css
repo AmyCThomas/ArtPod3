@@ -1,0 +1,21 @@
+.show-card {
+  min-height: 35vh;
+  overflow: hidden;
+}
+
+.show-head {
+  height: 90vh;
+  overflow: hidden;
+  background-image: url('/src/images/keyboard-hand.jpg');
+  background-size: cover;
+  background-position: center;
+  animation: fadeIn 2s;
+}
+
+.show-title {
+  background-color: #1B4965;
+  min-height: 30%;
+  overflow: hidden;
+  color: rgb(227, 227, 227);
+  padding: 1%;
+}
