@@ -1,0 +1,39 @@
+.navbar {
+  background-color: #2e364e;
+}
+
+.nav-link {
+  font-size: 18px;
+}
+
+.login-bar {
+  background-color: rgba(217, 205, 128, 0.318);
+}
+
+.logo {
+  width: 18%;
+  margin-left: 50%;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 5%;
+  margin: 2%
+}
+
+.footer-div {
+  border-top: 1px solid rgba(85, 85, 85, 0.3);
+  height: 15vh;
+}
+
+.footer-text {
+  display: inline;
+  align-items: center;
+  padding-left: 50%;
+  font-size: 15px;
+}
