@@ -1,0 +1,10 @@
+asgiref==3.5.1
+Django==3.2.13
+django-cors-headers==3.11.0
+django-js-choices==0.3.2
+django-rest-framework==0.1.0
+djangorestframework==3.13.1
+psycopg2==2.9.3
+pytz==2022.1
+rjsmin==1.2.0
+sqlparse==0.4.2
