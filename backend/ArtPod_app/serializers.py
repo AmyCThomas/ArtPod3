@@ -15,6 +15,10 @@ class UserSerializer(serializers.ModelSerializer):
         print(validated_data)
         return super().create(validated_data)
 
+# class UserProfileSerializer(serializers.ModelSerializer):
+#     class Meta:
+#         model = UserProfile
+#         fields = '__all__'
 
     def to_representation(self, instance):
         data = super().to_representation(instance)
@@ -22,6 +26,8 @@ class UserSerializer(serializers.ModelSerializer):
         serialized = UserSerializer(instance=user)
         data['user'] = serialized.data
         return data
+
+
 
 class ForumSerializer(serializers.ModelSerializer):
     class Meta:
