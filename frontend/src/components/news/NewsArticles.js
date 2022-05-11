@@ -9,7 +9,7 @@ const NewsArticles = ({articles}) => {
           <Card key={post.id} className="news-card h-100">
             <Card.Img variant="top" src={post.media} />
               <Card.Body>
-                <Card.Title>{post.title.replace(": programming", '')}</Card.Title>
+                <Card.Title>{post.title.replace(": art", '')}</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">
                     {post.author}
                   </Card.Subtitle>

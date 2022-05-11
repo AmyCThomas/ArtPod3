@@ -50,7 +50,7 @@ function SignUpPage(props) {
         </Form.Group>
         <Form.Group className="mt-3">
         </Form.Group>
-        <Button variant="outline-light" className="submit" type="submit" style={{backgroundColor: "#1B4965"}}>Create Account</Button>
+        <Button variant="outline-light" className="submit" type="submit" style={{backgroundColor: "#12959a"}}>Create Account</Button>
       </Form>
     </div>
   )

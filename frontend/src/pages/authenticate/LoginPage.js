@@ -15,7 +15,7 @@ function LoginPage(props) {
       username: event.target.elements["username"].value,
       password: event.target.elements["password"].value
     }
-    console.log("LOGIN:", loginData)
+    console.log("Login", loginData)
     const data = await ArtPodAPI.login(loginData)
 
     if (data) {
@@ -38,7 +38,7 @@ function LoginPage(props) {
           <Form.Label>Password:</Form.Label>
           <Form.Control type="password" name="password" placeholder="Password"/>
         </Form.Group>
-        <Button variant="outline-light" className="submit" type="submit" style={{backgroundColor: "#1B4965"}}>Submit</Button>
+        <Button variant="outline-light" className="submit" type="submit" style={{backgroundColor: "#12959a"}}>Submit</Button>
       </Form>
     </Container>
   )

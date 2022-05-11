@@ -9,11 +9,14 @@ function NewsPage() {
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(6);
  
-  const options = {
-    method: 'GET',
-    url: 'https://newsapi.org/v2/everything?q=Art&from=2022-05-10&sortBy=popularity&apiKey=9630189558ac46c89b17e9b77c02c080',
-  };
-
+    const options = {
+      method: 'GET',
+    url: 'https://api.newscatcherapi.com/v2/search',
+      params: {q: 'art', lang: 'en', sort_by: 'relevancy', page: '1'},
+      headers: {
+        'x-api-key': 'WdZ6bm4OXbsyNnYMGSpAMXH8PNeqA6B95Tgxx9IzDl0'
+      }
+    }
   useEffect(() => {
     axios.request(options).then(function (response) {
       const data = response.data
@@ -39,7 +42,7 @@ function NewsPage() {
     <div>
       <header className="news-header">
       </header>
-      <h2 className="news-title">Current News in the Art World</h2>
+      <h2 className="news-title">The Most Current News in the World of Art</h2>
       <NewsArticles articles={currentPosts} />
       <Pagination postsPerPage={postsPerPage} totalPosts={articles.length} paginate={paginate}/>
     </div>   

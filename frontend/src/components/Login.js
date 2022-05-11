@@ -2,6 +2,8 @@ import { Link, useNavigate } from "react-router-dom"
 import { Navbar, Nav, Col, Button } from 'react-bootstrap';
 import ArtPodAPI from "../api/ArtPodAPI"
 import './NavBarsStyle.css'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 function Login(props) {
   const navigate = useNavigate()
@@ -23,6 +25,12 @@ function Login(props) {
             <Navbar className="login-bar" variant="light">
               <Navbar.Brand as={Col} xs={8}>
                 {/* <img alt="logo" src={require("../images/logo.png")} className="logo"/> */}
+                <div className="d-flex flex-row justify-content-between border-bottom">
+            <NavLink to="/" activeclassname="active-link "><h5 className="arrow mx-3">{'< back'}</h5></NavLink>
+        
+
+            <span><i className="fa fa-cog mx-5 mt-3" aria-hidden="true" /></span>
+            </div>
               </Navbar.Brand>
               <Nav className="ms-auto">
                 <Nav.Link as={Link} to="/login"><Button variant="outline-secondary">Login</Button></Nav.Link>
