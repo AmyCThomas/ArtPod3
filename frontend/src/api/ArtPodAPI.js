@@ -1,7 +1,7 @@
 import axios from "axios"
 import apiHelpers from "./ApiHelpers"
 const ArtPodAPI = {}
-const BASE_URL = "http://localhost:8000" // Backend
+const BASE_URL = "http://127.0.0.1:8000" // Backend
 
 // Authentication methods
 ArtPodAPI.signup = async (signupData) => {
@@ -57,5 +57,3 @@ ArtPodAPI.deleteItem = async (item, itemId) => {
     () => axios.delete(`${BASE_URL}/${item}/${itemId}/`, apiHelpers.getCsrfConfig())
   )
 }
-
-export default ArtPodAPI
