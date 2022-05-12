@@ -74,9 +74,9 @@ function PostDetailsPage(props) {
     }
     return (
       <Form onSubmit={ handleCreateComment } method="POST" className="form-cont">
-        <Form.Label>Post a comment:</Form.Label>
+        <Form.Label>New Post</Form.Label>
         <Form.Control as="textarea" rows={5} name="comment-description" />
-        <Button type="submit" variant="secondary" className="mt-3 mb-3">Submit Comment</Button>
+        <Button type="submit" variant="primary" className="mt-3 mb-3">Post</Button>
       </Form>
     )
   }

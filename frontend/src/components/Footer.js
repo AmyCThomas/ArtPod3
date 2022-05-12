@@ -9,7 +9,7 @@ function Footer() {
       © Copyright - 2022 ArtPod <a 
         target="_blank" 
         className="text-reset fw-bold text-decoration-none" 
-        href="https://linkedin.com/li/amycthomas-531"
+        href="https://linkedin.com/in/amy-thomas531"
       >
         Amy Thomas
       </a> 

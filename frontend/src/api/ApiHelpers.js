@@ -1,7 +1,5 @@
 import Cookie from "js-cookie"
-
 const apiHelpers = {}
-
 apiHelpers.getCsrfConfig = () => {
   return {
     withCredentials: true,
@@ -10,7 +8,6 @@ apiHelpers.getCsrfConfig = () => {
     }
   }
 }
-
 apiHelpers.tryCatchFetch = async (axiosCall) => {
   try {
     const response = await axiosCall()

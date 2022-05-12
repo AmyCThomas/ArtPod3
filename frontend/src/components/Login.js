@@ -27,9 +27,7 @@ function Login(props) {
                 {/* <img alt="logo" src={require("../images/logo.png")} className="logo"/> */}
                 <div className="d-flex flex-row justify-content-between border-bottom">
             <NavLink to="/" activeclassname="active-link "><h5 className="arrow mx-3">{'< back'}</h5></NavLink>
-        
 
-            <span><i className="fa fa-cog mx-5 mt-3" aria-hidden="true" /></span>
             </div>
               </Navbar.Brand>
               <Nav className="ms-auto">

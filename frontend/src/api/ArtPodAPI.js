@@ -1,7 +1,7 @@
 import axios from "axios"
 import apiHelpers from "./ApiHelpers"
 const ArtPodAPI = {}
-const BASE_URL = "http://127.0.0.1:8050" // Backend
+const BASE_URL = "http://localhost:8000" // Backend
 
 // Authentication methods
 ArtPodAPI.signup = async (signupData) => {

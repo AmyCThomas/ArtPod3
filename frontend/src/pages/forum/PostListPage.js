@@ -16,7 +16,7 @@ function PostListPage(props) {
   // effects
   useEffect(()=>{
     loadPostLists()
-  }, []) // Change once we add authentication features/Add new post features
+  }, [])
 
   const loadPostLists = async () =>{
     const posts =[]
@@ -51,7 +51,7 @@ function PostListPage(props) {
       </div>
       { renderPostLists() }
       <div className="create-btn">
-        <Link to={`/forum/${section}/create-post`}><Button variant="secondary" style={{backgroundColor: '#1B4965'}}>Create Post</Button></Link>
+        <Link to={`/forum/${section}/create-post`}><Button variant="primary" style={{backgroundColor: '#010d32'}}>Create Post</Button></Link>
       </div>
     </div>
   )

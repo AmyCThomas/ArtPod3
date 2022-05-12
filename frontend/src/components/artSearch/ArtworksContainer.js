@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import ArtworksHeader from './ArtworksHeader';
 import Artworks from './Artworks';
-import { fetchArtworks } from './redux/artworksApi';
+import { fetchArtworks } from '../../redux/artworks';
 
 const ArtworksContainer = () => {
   const [searchValue, setSearchValue] = useState('');

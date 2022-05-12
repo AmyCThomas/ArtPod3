@@ -32,7 +32,7 @@ function ForumPage() {
       <div className="forum-item-div">
         <Row className="forum-items">
           <Col>
-            <h3 className="main-title">Section Title</h3>
+            <h3 className="main-title">Topic Categories:</h3>
           </Col>
         </Row>
       </div>

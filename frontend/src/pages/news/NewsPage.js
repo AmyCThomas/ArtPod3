@@ -42,7 +42,7 @@ function NewsPage() {
     <div>
       <header className="news-header">
       </header>
-      <h2 className="news-title">The Most Current News in the World of Art</h2>
+      <h2 className="news-title">Current News in the World of Art</h2>
       <NewsArticles articles={currentPosts} />
       <Pagination postsPerPage={postsPerPage} totalPosts={articles.length} paginate={paginate}/>
     </div>   
